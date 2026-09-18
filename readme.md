@@ -120,6 +120,9 @@ Hardware outlives its platform. These are the closures, with dates, because a he
 - [awesome-stereoscopy](https://github.com/danielcamposramos/awesome-stereoscopy) - The stereo medium itself: formats, packings, signalling, stereo photography and 3D cinema. A headset is a stereoscope you wear, and that list is where the optics lead.
 - [awesome-ar](https://github.com/danielcamposramos/awesome-ar) - Augmented reality: see-through optics, tracking and mapping, and the SDKs built on them.
 - [awesome-vrchat](https://github.com/madjin/awesome-vrchat) - A deeper collection for VRChat content creation specifically.
+- [awesome-openxr](https://github.com/Elameri/awesome-openxr) - An OpenXR-specific collection, for when the standard itself is the subject.
+- [awesome-mixed-reality](https://github.com/saurabhchalke/awesome-mixed-reality) - Mixed reality development resources spanning both sides of the passthrough line.
+- [awesome-visionOS](https://github.com/tomkrikorian/awesome-visionOS) - Apple's platform in depth, for the headset this list gives one entry.
 
 ## Known gaps
 
