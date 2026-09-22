@@ -123,6 +123,11 @@ Hardware outlives its platform. These are the closures, with dates, because a he
 - [awesome-openxr](https://github.com/Elameri/awesome-openxr) - An OpenXR-specific collection, for when the standard itself is the subject.
 - [awesome-mixed-reality](https://github.com/saurabhchalke/awesome-mixed-reality) - Mixed reality development resources spanning both sides of the passthrough line.
 - [awesome-visionOS](https://github.com/tomkrikorian/awesome-visionOS) - Apple's platform in depth, for the headset this list gives one entry.
+- [awesome-linux-hdr](https://github.com/danielcamposramos/awesome-linux-hdr) - HDR and deep colour on Linux, from specification to photons: the display chain behind any screen, headset panels included.
+- [awesome-a11y](https://github.com/brunopulis/awesome-a11y) - Accessibility resources in general, for the principles behind this list's accessibility entries.
+- [awesome-digital-preservation](https://github.com/digipres/awesome-digital-preservation) - Digital preservation practice and tools, for keeping discontinued platforms, formats and their content usable.
+- [awesome-volumetric-filmmaking](https://github.com/SimileSystems/awesome-volumetric-filmmaking) - Volumetric video capture and playback; dormant since 2018, still a useful map of the field.
+- [awesome-light-fields](https://github.com/JoanCharmant/awesome-light-fields) - Light field capture, rendering and displays, the step beyond two views; dormant since 2016, kept for its history.
 
 ## Known gaps
 
