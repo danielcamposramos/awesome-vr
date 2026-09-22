@@ -57,7 +57,8 @@ then glTF as the runtime delivery format most engines now target.
 ## Immersive media
 
 - [MPEG-I](https://www.mpeg.org/standards/MPEG-I/) - ISO/IEC 23090: OMAF for
-  omnidirectional media, immersive audio, and point-cloud and volumetric video.
+  omnidirectional media ([ISO catalogue](https://www.iso.org/standard/73310.html)),
+  immersive audio, and point-cloud and volumetric video.
 - [AmbiX](https://ambisonics.iem.at/proceedings-of-the-ambisonics-symposium-2011/ambix-a-suggested-ambisonics-format) -
   The 2011 paper defining the Ambisonics channel order and normalisation most
   VR audio tools assume.

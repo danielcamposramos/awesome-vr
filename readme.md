@@ -94,8 +94,8 @@ Virtual reality is older than the personal computer. Morton Heilig built the Sen
 - [iQIYI QIYU 3](https://www.prnewswire.com/news-releases/iqiyi-launches-new-all-in-one-vr-headset-qiyu-3-further-expanding-its-premium-vr-gaming-ecosystem-301366852.html) - The streaming company's third standalone headset, with its own inside-out tracking.
 - [Huawei VR Glass](https://en.wikipedia.org/wiki/Huawei_VR_Glass) - A slim tethered viewer from December 2019, later updated with six-degree-of-freedom tracking.
 - [Skyworth VR V901](https://skarredghost.com/2019/11/09/skyworth-vr-v901-review/) - A 4K three-degree-of-freedom standalone headset from the Shenzhen electronics group, reviewed in depth.
-- [3Glasses](https://digitaldomain.com/news/%E3%80%90media-alert%E3%80%91digital-domain-announces-acquisition-3glasses-virtual-reality-headset-manufacturer/) - Maker of China's first VR headset (D1) and first Windows Mixed Reality headset; this is Digital Domain's 2018 announcement of buying 60% of it.
-- [FOVE](https://fove-inc.com/) - Tokyo maker of the first consumer eye-tracking VR headset, crowdfunded in 2015 and shipping from 2017.
+- [3Glasses](https://web.archive.org/web/20180104060201/http://www.3glasses.com:80/en/aboutUs.html) - Maker of China's first VR headset (D1) and first Windows Mixed Reality headset (Blubur S1), archived from its 2018 site, which no longer answers; Digital Domain [bought 60% of it](https://digitaldomain.com/news/%E3%80%90media-alert%E3%80%91digital-domain-announces-acquisition-3glasses-virtual-reality-headset-manufacturer/) that year.
+- [FOVE](https://fove-inc.com/) - Tokyo maker of the first consumer eye-tracking VR headset, [crowdfunded](https://www.kickstarter.com/projects/fove/fove-the-worlds-first-eye-tracking-virtual-reality) in 2015 and shipping from 2017.
 - [Shiftall MeganeX](https://en.shiftall.net/our-products) - Ultra-light OLED PC headsets from a Panasonic spin-off, which Shiftall now runs alone.
 - [Canon MREAL](https://global.canon/en/technology/canon-tech/tech/mr/) - Canon's mixed-reality headsets for industry and design.
 
@@ -127,8 +127,9 @@ The editions, registries and reference implementations are indexed in [standards
 - [Web3D Consortium](https://en.wikipedia.org/wiki/Web3D_Consortium) - The non-profit behind X3D, a royalty-free ISO standard.
 - [VRPN](https://github.com/vrpn/vrpn) - The device-independent, network-transparent library for VR peripherals, from UNC in the 1990s and still maintained.
 - [OSVR](https://github.com/OSVR) - Razer and Sensics's open platform; its osvr.org domain no longer resolves, so the code on GitHub is what remains.
+- [ISO/IEC 23090-2 (OMAF)](https://www.iso.org/standard/73310.html) - The omnidirectional media format, MPEG-I part 2, for 360° video.
 - [MPEG-I](https://www.mpeg.org/standards/MPEG-I/) - ISO/IEC 23090, the immersive-media family: omnidirectional video (OMAF), immersive audio and volumetric video.
-- [ISO/IEC JTC 1/SC 24](https://en.wikipedia.org/wiki/ISO/IEC_JTC_1/SC_24) - The subcommittee for computer graphics, VR, AR and mixed reality.
+- [ISO/IEC JTC 1/SC 24](https://en.wikipedia.org/wiki/ISO/IEC_JTC_1/SC_24) - The subcommittee for computer graphics, VR, AR and mixed reality, with its [ISO committee page](https://www.iso.org/committee/45252.html).
 - [IEEE VR/AR Advisory Board](https://standards.ieee.org/industry-connections/activities/vr-ar-advisory-board/) - The IEEE Standards Association's umbrella for its VR and AR work, including [IEEE 2048.101](https://standards.ieee.org/ieee/2048.101/10390/), the one part of the 2048 family confirmed active.
 - [W3C Immersive Web](https://www.w3.org/immersive-web/) - The W3C groups that own WebXR.
 - [Metaverse Standards Forum](https://metaverse-standards.org/) - A coordination forum for XR and 3D standards; it publishes none of its own.
@@ -177,6 +178,8 @@ The editions, registries and reference implementations are indexed in [standards
 - [Vection](https://en.wikipedia.org/wiki/Vection) - The perceptual mechanism underneath it, where peripheral motion is read by the brain as the body's own movement.
 - [XR Accessibility User Requirements](https://www.w3.org/TR/xaur/) - The W3C note setting out what people with disabilities need from immersive environments. Read it before designing an interaction that assumes two hands, two eyes, a standing user or a fast reaction.
 - [Virtual reality therapy](https://en.wikipedia.org/wiki/Virtual_reality_therapy) - The clinical side: exposure therapy for PTSD and phobias, plus rehabilitation after stroke and in Parkinson's disease, where engagement is the point rather than spectacle.
+- [Simulator Sickness Questionnaire](https://www.tandfonline.com/doi/abs/10.1207/s15327108ijap0303_3) - Kennedy, Lane, Berbaum and Lilienthal, 1993: the instrument most VR sickness research still measures with.
+- [Cybersickness literature review](https://dl.acm.org/doi/full/10.1145/3670008) - A review of cybersickness research in the ACM Digital Library.
 - [Cybersickness in current headsets](https://link.springer.com/article/10.1007/s10055-021-00513-6) - A 2021 systematic review in *Virtual Reality* of causes, measurement and mitigation.
 - [XR Access](https://xraccess.org/about/) - The Cornell Tech consortium, founded in 2019, building accessibility resources for XR developers.
 
@@ -189,6 +192,7 @@ Where most of the continuous use has always been. These are mostly the organisat
 - [CAE training systems](https://www.cae.com/defense-security/what-we-do/training-systems/) - The flight-simulator maker's military and civil training lines, with [CAE Sprint](https://www.cae.com/defense-security/what-we-do/training-systems/cae-sprint/) pairing a headset with physical controls.
 - [Loft Dynamics](https://www.loftdynamics.com/about/) - Maker of the first VR flight simulator qualified by EASA and the FAA for real pilot training (an H125 helicopter, 2023).
 - [Astronauts practise spacewalks virtually](https://blogs.nasa.gov/commercialcrew/2018/10/23/astronauts-practice-spacewalks-virtually/) - NASA's account of headset rehearsal ahead of real spacewalks.
+- [Synthetic Training Environment](https://www.army.mil/article/254005/synthetic_training_environment_offers_multi_dimensional_combat_preparation) - The US Army's account of its cloud-delivered VR and AR combat training.
 - [Boeing's virtual airplane](https://boeing.mediaroom.com/2025-11-06-Boeing-Pioneering-Next-Generation-Training-Tools-with-Launch-of-Virtual-Airplane) - Boeing's November 2025 pilot-procedures trainer.
 - [Lockheed Martin VCCT](https://www.lockheedmartin.com/en-us/news/features/history/vcct.html) - Lockheed Martin's retrospective on its VR crew-familiarisation trainer for land vehicles, and its [immersive training devices](https://www.lockheedmartin.com/en-us/news/features/2023/immersive-training-devices-blending-real-and-simulated-worlds-together.html).
 - [Strivr at Walmart](https://www.strivr.com/customers/walmart) - The vendor's case study of VR training rolled out across a retailer's stores.
@@ -197,6 +201,7 @@ Where most of the continuous use has always been. These are mostly the organisat
 
 - [Ford FIVE](https://newatlas.com/ford-immersive-vehicle-environment-five-lab-vr/33952/) - Ford's Immersive Vehicle Environment, where designers walk around full-scale virtual cars before a clay model exists.
 - [Varjo for automotive design](https://varjo.com/use-cases/automotive) - How the Finnish maker's high-resolution headsets are used in car design; see the [VR-1 launch](https://varjo.com/news/varjo-announces-vr-1-worlds-first-human-eye-resolution-vr-headset-for-industrial-use).
+- [Autodesk VRED](https://www.autodesk.com/products/vred/overview) - Autodesk's automotive visualisation and design-review software, including review in a headset.
 - [NX Immersive Explorer](https://plm.sw.siemens.com/en-US/nx/cad-online/mcad-software/nx-immersive-explorer/) - Headset design review inside Siemens NX.
 - [Spatial](https://en.wikipedia.org/wiki/Spatial_%28platform%29) - Founded in 2017 for AR and VR workplace collaboration before pivoting to social spaces.
 
@@ -205,6 +210,7 @@ Where most of the continuous use has always been. These are mostly the organisat
 - [BRAVEMIND](https://ict.usc.edu/research/projects/bravemind-virtual-reality-exposure-therapy/) - USC's VR exposure therapy for post-traumatic stress, used across US veterans' and military clinics.
 - [Osso VR](https://www.ossovr.com/about) - Surgical training and assessment in VR.
 - [FundamentalVR](https://www.fundamentalvr.com/) - Surgical simulation combining VR with haptic feedback.
+- [Johns Hopkins BME: VR training](https://www.bme.jhu.edu/hello-world/vr-training/) - Johns Hopkins Biomedical Engineering on its VR training work.
 
 ### Education and venues
 
@@ -244,6 +250,9 @@ What keeps a headset useful after its maker stops.
 - [Voices of VR](https://voicesofvr.com/) - An interview podcast running since 2014, an informal oral history of the field.
 - [UploadVR](https://www.uploadvr.com/) - A VR news outlet since the development-kit era.
 - [Road to VR](https://roadtovr.com/) - VR news since 2011.
+- [r/virtualreality](https://www.reddit.com/r/virtualreality/) - The largest VR discussion subreddit. Moderation is uneven and it includes adult-oriented user content.
+- [Meta Community Forums](https://communityforums.atmeta.com/) - Meta's official forums for Quest owners and developers.
+- [Extended Reality: Visions of the Future](https://www.globenewswire.com/news-release/2026/09/10/3359874/28639/en/computer-history-museum-announces-extended-reality-visions-of-the-future-exhibit.html) - The Computer History Museum's XR exhibition, October 2026 to March 2027, with more than 100 artifacts from its collection, from Sutherland's head-mounted display to the Vision Pro.
 - [IEEE VR](https://en.wikipedia.org/wiki/IEEE_VR) - The annual academic conference, tracing back to 1993.
 - [Augmented World Expo](https://en.wikipedia.org/wiki/Augmented_World_Expo) - The annual AR and VR industry gathering since 2010.
 
