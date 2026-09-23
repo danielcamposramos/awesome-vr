@@ -24,3 +24,7 @@ Dead platforms are welcome and wanted. A headset whose store was switched off is
 - If a project is abandoned, unmaintained or a service is unreliable, say so plainly in the description. An honest note is more useful than an omission, and readers will find out anyway.
 - Historical entries should carry a date.
 - Never work around a site that blocks automated access. If a source cannot be opened normally, leave it out and say so.
+
+## Using an AI assistant
+
+Load [ai-skill/SKILL.md](ai-skill/SKILL.md) first. It carries these rules plus the verification discipline behind every entry, and it works with any assistant. Assistance is welcome and never held against you; see [PROVENANCE.md](PROVENANCE.md#on-slop).
