@@ -92,6 +92,8 @@ Virtual reality is older than the personal computer. Morton Heilig built the Sen
 ### China and Japan
 
 - [PICO](https://www.picoxr.com/global) - Standalone headset maker founded in 2015 and owned by ByteDance since 2021.
+- [PICO Space Pro](https://roadtovr.com/pico-vision-pro-competitor-delayed-cancelled-event/) - PICO's answer to the Vision Pro, formerly Project Swan: micro-OLED at 4,000 pixels per inch (about 40 per degree) and a dual-chip design with custom XR silicon. Its 2 September 2026 reveal in Beijing was cancelled and the launch moved to the fourth quarter of 2026, for "more time on a major upgrade to the software experience".
+- [vivo Vision](https://roadtovr.com/vivo-vision-china-vision-pro-release-price-specs/) - The phone maker's first mixed-reality headset, August 2025: dual micro-OLED panels at 8K across both eyes, 398 grams, a Snapdragon XR2+ Gen 2 and its own OriginOS Vision. It began as an in-store demonstration across mainland China, not yet on sale, at an expected price of about 10,000 yuan that vivo had not confirmed.
 - [DPVR](https://www.dpvr.com/en/about-us/) - Shanghai maker of consumer and enterprise headsets, selling since 2015.
 - [NOLO](https://www.nolovr.com/En/Culture) - Beijing company behind early six-degree-of-freedom tracking kits for phone VR, now also making headsets.
 - [iQIYI QIYU 3](https://www.prnewswire.com/news-releases/iqiyi-launches-new-all-in-one-vr-headset-qiyu-3-further-expanding-its-premium-vr-gaming-ecosystem-301366852.html) - The streaming company's third standalone headset, with its own inside-out tracking.
