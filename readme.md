@@ -13,6 +13,7 @@ Virtual reality is older than the personal computer. Morton Heilig built the Sen
 - [Tracking and rendering](#tracking-and-rendering)
 - [Open standards and formats](#open-standards-and-formats)
 - [Open source runtimes and Linux VR](#open-source-runtimes-and-linux-vr)
+- [VR on 3D displays: the stereo spectator](#vr-on-3d-displays-the-stereo-spectator)
 - [Engines and toolkits](#engines-and-toolkits)
 - [Media formats](#media-formats)
 - [Social platforms](#social-platforms)
@@ -76,6 +77,8 @@ Virtual reality is older than the personal computer. Morton Heilig built the Sen
 ## Headsets
 
 - [Meta Quest](https://en.wikipedia.org/wiki/Meta_Quest) - The standalone line that made headsets a mass product, and the largest headset platform in the world as of 2025. The Quest, Quest 2 and Quest Pro are already discontinued, which is the pattern this list keeps pointing at.
+- [Meta Quest 3S](https://en.wikipedia.org/wiki/Meta_Quest_3S) - The entry-level sibling, unveiled on 25 September 2024: the Quest 3's Snapdragon XR2 Gen 2 and colour passthrough, with Fresnel lenses instead of pancake lenses.
+- [Samsung Galaxy XR](https://en.wikipedia.org/wiki/Samsung_Galaxy_XR) - Samsung's mixed-reality headset, made with Google and Qualcomm and unveiled on 21 October 2025 at US$1,799: the first device to run [Android XR](https://en.wikipedia.org/wiki/Android_XR).
 - [Meta Quest 3](https://en.wikipedia.org/wiki/Meta_Quest_3) - Released in October 2023 on a Snapdragon XR2 Gen 2, with colour passthrough that made mixed reality ordinary on a consumer headset.
 - [PlayStation VR2](https://en.wikipedia.org/wiki/PlayStation_VR2) - Sony's 2023 headset: dual OLED panels at 2000×2040 per eye, 110° field of view, and eye tracking used for foveated rendering rather than only for input.
 - [Apple Vision Pro](https://en.wikipedia.org/wiki/Apple_Vision_Pro) - Released in February 2024 at roughly 3660×3200 per eye, driven by an M-series chip paired with a dedicated R1 for sensor fusion, and unlocked by iris recognition.
@@ -148,6 +151,17 @@ The editions, registries and reference implementations are indexed in [standards
 - [libsurvive](https://github.com/collabora/libsurvive) - An MIT-licensed reimplementation of Lighthouse tracking, so Vive-era trackers work without any proprietary runtime.
 - [SlimeVR](https://slimevr.dev/) - Open hardware and software for full-body tracking with inexpensive IMU trackers and no base stations.
 - [Linux VR Adventures](https://vronlinux.org/) - The community wiki collecting the guides, hardware notes and workarounds that make the above usable.
+
+## VR on 3D displays: the stereo spectator
+
+Every VR game already renders two eyes. The 3D televisions, projectors and monitors people still own want exactly that: two eye images, packed side by side or top and bottom, watched with the display's own glasses. What stands in between is everything a VR mode does *for a headset*: head tracking, lens distortion, a HUD floating as a panel in space, a cursor inside a virtual screen. The stereo spectator, designed by Daniel Campos Ramos in 2026, removes those and keeps the two eyes: someone plays in the headset while the room watches in depth on the television (spectator), or there is no headset at all and the display is the only screen (player).
+
+- [VR Stereo Spectator](https://github.com/danielcamposramos/sony-bravia-linux/tree/main/tools/vr-stereo-spectator) - The first working case, September 2026: a replacement `sourcevr.so` that implements Half-Life 2's own VR interface for a 3D television instead of a headset, on Linux with Vulkan and an NVIDIA card, played on two Sony 3D sets. Off-axis eyes sharing one window at the screen plane, the game's view in place of head tracking, the HUD and crosshair as a 2D layer at zero parallax, menus in the game's own layout, the pointer confined to what the eyes show. A full playthrough section ran clean across saves and level transitions. Source 1 SDK License, with a provenance file.
+- [The formula](https://github.com/danielcamposramos/sony-bravia-linux/blob/main/tools/vr-stereo-spectator/FORMULA.md) - What any VR engine has to change to drive a 3D display instead of a headset, learned on Half-Life 2 and written game-neutral: eyes, view, composition, the 2D layer, crosshair, weapon effects, input, settings. Shadows, lighting, level transitions and saves needed nothing, because the engine renders each eye itself; that is the advantage over a stereo proxy for games without a VR mode, which is what [wiz3D](https://github.com/effcol/wiz3D) does.
+- [Anaglyph for any colour screen](https://github.com/danielcamposramos/sony-bravia-linux/tree/main/tools/vr-stereo-spectator/anaglyph) - The fallback for screens with no 3D mode: a [gamescope](https://github.com/ValveSoftware/gamescope) effect, 64-bit and outside the game, that turns the side-by-side output into red/cyan anaglyph with a matrix computed for CRT phosphors or one computed for modern LCD panels. It works for any game that outputs side by side; an artefact in fast camera turns is still under investigation.
+- [Source-1-Games #8297](https://github.com/ValveSoftware/Source-1-Games/issues/8297) - The report to Valve: six behaviours of Half-Life 2's VR mode that only hurt a display, and one ask, to allow `viewmodel_fov` while VR mode is active. Filed on 24 September 2026, together with answers to the 2013 request for side-by-side 3D ([#1013](https://github.com/ValveSoftware/Source-1-Games/issues/1013)), the unanswered 2022 question about sourcevr on Linux ([#3782](https://github.com/ValveSoftware/Source-1-Games/issues/3782)) and the 2014 HUD checkerboard ([source-sdk-2013 #268](https://github.com/ValveSoftware/source-sdk-2013/issues/268)), whose cause turned out to be a material drawn without a precache.
+- [SteamVR-for-Linux #961](https://github.com/ValveSoftware/SteamVR-for-Linux/issues/961) - The runtime-level ask, the same day: a side-by-side option for SteamVR's VR View mirror window, and a supported path for an OpenVR driver that presents a 3D display as the headset, the route [openvr #706](https://github.com/ValveSoftware/openvr/issues/706) tried in 2018. Valve had already said stereoscopic content on the [Steam Frame](https://roadtovr.com/valve-steam-frame-stereoscopic-3d-support-flat-games-spatial-video/) is "on our list"; a stereo spectator output is that side-by-side frame going the other way.
+- [Awesome Stereoscopy](https://github.com/danielcamposramos/awesome-stereoscopy) - The companion list: the displays these eye images can go to, from the 2010 television wave to the glasses-free light-field sets shown in 2026.
 
 ## Engines and toolkits
 
