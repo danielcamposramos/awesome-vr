@@ -236,6 +236,17 @@ Where most of the continuous use has always been. These are mostly the organisat
 - [Zero Latency](https://en.wikipedia.org/wiki/Zero_Latency_%28company%29) - Free-roam VR arenas, founded in Melbourne in 2013.
 - [Sandbox VR](https://en.wikipedia.org/wiki/Sandbox_VR) - Location-based VR with full-body motion capture, founded in 2016.
 
+### Digital twins
+
+A digital twin is a model kept as the counterpart of a real product, place or process, for simulation, testing, monitoring and maintenance. VR lets people stand inside one at full scale, from anywhere, and before the real thing exists: a factory line, a city block, a coast, the sea floor. The value lasts only as long as the model's formats are open, so the standards that let one twin reach a browser, a headset and a phone matter more than any single viewer. The stereo side, including terrain measured from stereo pairs, is in [awesome-stereoscopy](https://github.com/danielcamposramos/awesome-stereoscopy#stereo-at-work-science-access-practice-and-government), and its on-site side is in [awesome-ar](https://github.com/danielcamposramos/awesome-ar#digital-twins).
+
+- [Digital twin](https://en.wikipedia.org/wiki/Digital_twin) - The concept and its history: a computational model serving as the counterpart of a real product, system or process. The first practical definition came from NASA in 2010, to improve the simulation of spacecraft.
+- [OGC 3D Tiles](https://www.ogc.org/standards/3dtiles/) - The Open Geospatial Consortium's community standard for streaming and rendering massive 3D geospatial content: photogrammetry, buildings, BIM and CAD, point clouds. It defines a hierarchy of tiles built for streaming, so a city or a planet reaches a headset a piece at a time.
+- [Cesium for Unreal](https://cesium.com/platform/cesium-for-unreal/) - A free, open-source plugin that puts a full-scale WGS84 globe into Unreal Engine and streams 3D Tiles into it at runtime; Cesium's learning centre covers building VR applications on it.
+- [Destination Earth](https://destination-earth.eu/) - The European Commission's flagship initiative for a highly accurate digital twin of the Earth, to model, monitor and simulate natural phenomena, hazards and the human activities tied to them, and to plan adaptation and mitigation.
+- [DITTO](https://ditto-oceandecade.org/) - Digital Twins of the Ocean, a programme of the UN Ocean Decade, for ocean protection, governance and a sustainable blue economy. For coasts and islands the ocean half of a twin matters as much as the land half.
+- [User-centric evaluation methods for digital twin applications in extended reality](https://arxiv.org/abs/2502.17346) - Vona and colleagues (2025): a method for testing XR digital twins with the people who use them, for usability, cognitive load and experience, across virtual tourism, city planning and industrial maintenance.
+
 ## Platforms that were switched off
 
 Hardware outlives its platform. These are the closures, with dates, because a headset whose store is gone is the normal end state in this field rather than an exception.
@@ -312,7 +323,7 @@ Stated openly, because a list that hides its blind spots is worse than one that 
 
 **Non-Western ecosystems** now have their own history and headset sections, built from English-language sources. Coverage in the markets' own languages is still missing, as are YVR and Samsung's Galaxy XR, whose own pages could not be verified. Contributions in any language are wanted; cite what you can.
 
-**Enterprise and industrial VR** has a section now, but it rests mostly on the organisations' own accounts. Independent outcome studies are wanted.
+**Enterprise and industrial VR** has a section now, digital twins included, but it rests mostly on the organisations' own accounts and on the twin programmes' descriptions of themselves. Independent outcome studies are wanted, above all measured results from twins used in a headset.
 
 **Communities** are represented by their news outlets, a podcast and the main conferences. The active forums sit mostly on platforms whose pages could not be verified in the ordinary way, and an unverified link is worse than an admitted gap.
 
