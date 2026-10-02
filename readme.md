@@ -155,7 +155,7 @@ The editions, registries and reference implementations are indexed in [standards
 - [Stardust XR](https://github.com/StardustXR/server) - A display server for VR and AR headsets on Linux, rather than a runtime that hosts one application at a time.
 - [libsurvive](https://github.com/collabora/libsurvive) - An MIT-licensed reimplementation of Lighthouse tracking, so Vive-era trackers work without any proprietary runtime.
 - [SlimeVR](https://slimevr.dev/) - Open hardware and software for full-body tracking with inexpensive IMU trackers and no base stations.
-- [FEX](https://github.com/FEX-Emu/FEX) - Runs x86 and x86-64 Linux programs on ARM64 Linux devices, in the same family as qemu-user and box64. Techquickie's buying guide (under Headsets) names it as what lets the Steam Frame play the regular Steam library on its ARM chip.
+- [FEX](https://github.com/FEX-Emu/FEX) - Runs x86 and x86-64 Linux programs on ARM64 Linux devices, in the same family as qemu-user and box64. On the Steam Frame it is built into Proton, so only the game's own x86 code is translated while Proton, the graphics drivers and gamescope run natively on ARM; Valve puts the cost at roughly 10 to 20 percent of CPU performance ([Techquickie, 2026](https://www.youtube.com/watch?v=AR-F8Ttpld8)).
 - [Linux VR Adventures](https://vronlinux.org/) - The community wiki collecting the guides, hardware notes and workarounds that make the above usable.
 
 ## VR on 3D displays: the stereo spectator
