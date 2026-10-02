@@ -88,6 +88,7 @@ Virtual reality is older than the personal computer. Morton Heilig built the Sen
 - [Bigscreen Beyond](https://en.wikipedia.org/wiki/Bigscreen_Beyond) - A 127-gram tethered headset whose face gasket is 3D-printed from a scan of the buyer's own face, discontinued in March 2025 in favour of a second version.
 - [Varjo](https://en.wikipedia.org/wiki/Varjo) - The Finnish maker of high-resolution headsets for simulation and industry, founded in 2016 by former Nokia and Microsoft engineers, at clarity well beyond consumer hardware.
 - [Pimax](https://en.wikipedia.org/wiki/Pimax) - The Shanghai maker that chased field of view first, shipping very wide, high-resolution PC headsets since its 2017 crowdfunding campaign.
+- [How to Buy a VR Headset](https://www.youtube.com/watch?v=NS1Qlu1JTOs) - Techquickie (Linus Media Group), 2 October 2026: a buyer's guide that decodes the spec sheet (six degrees of freedom, inside-out and Lighthouse tracking, foveated streaming, Fresnel and pancake lenses, IPD range) and the comfort factors no spec sheet shows, from frame-time dips to headset weight. It covers the Steam Frame's eye-tracked foveated streaming, for which Valve claims up to ten times the effective image quality of conventional wireless streaming, and the Frame's ability to run the regular Steam library on its ARM chip through FEX.
 
 ### China and Japan
 
@@ -154,6 +155,7 @@ The editions, registries and reference implementations are indexed in [standards
 - [Stardust XR](https://github.com/StardustXR/server) - A display server for VR and AR headsets on Linux, rather than a runtime that hosts one application at a time.
 - [libsurvive](https://github.com/collabora/libsurvive) - An MIT-licensed reimplementation of Lighthouse tracking, so Vive-era trackers work without any proprietary runtime.
 - [SlimeVR](https://slimevr.dev/) - Open hardware and software for full-body tracking with inexpensive IMU trackers and no base stations.
+- [FEX](https://github.com/FEX-Emu/FEX) - Runs x86 and x86-64 Linux programs on ARM64 Linux devices, in the same family as qemu-user and box64. Techquickie's buying guide (under Headsets) names it as what lets the Steam Frame play the regular Steam library on its ARM chip.
 - [Linux VR Adventures](https://vronlinux.org/) - The community wiki collecting the guides, hardware notes and workarounds that make the above usable.
 
 ## VR on 3D displays: the stereo spectator
