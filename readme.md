@@ -180,6 +180,7 @@ Every VR game already renders two eyes. The 3D televisions, projectors and monit
 - [StereoKit](https://stereokit.net/) - A C# and C++ framework that targets any OpenXR runtime, from Quest and HoloLens 2 to Monado on Linux, and prioritises XR application development over general engine features.
 - [Unity XR Interaction Toolkit](https://docs.unity3d.com/Packages/com.unity.xr.interaction.toolkit@3.6/manual/index.html) - Unity's component-based interaction system for building VR and AR experiences.
 - [Unreal Engine OpenXR](https://dev.epicgames.com/documentation/en-us/unreal-engine/developing-for-head-mounted-experiences-with-openxr-in-unreal-engine) - Epic's documentation for head-mounted development against OpenXR rather than per-vendor plugins.
+- [SGCT](https://github.com/sgct/sgct) - The Simple Graphics Cluster Toolkit, built for "non-standard display environments" such as domes, fisheye projection and clusters of computers: one program renders in side-by-side, top-and-bottom, quad-buffer, checkerboard, interlaced and anaglyph stereo from a configuration file. It has an OpenXR path for headsets, whose OpenGL side is implemented for Windows only as of October 2026, so on Linux it drives 3D displays but not headsets yet.
 
 ## Media formats
 
@@ -245,6 +246,7 @@ Where most of the continuous use has always been. These are mostly the organisat
 
 - [ENGAGE XR](https://engagevr.io/) - A VR platform for classrooms and training across SteamVR, Quest and Pico headsets.
 - [ClassVR](https://www.classvr.com/) - Headsets, curriculum content and classroom management for schools.
+- [OpenSpace](https://www.openspaceproject.com) - Open-source (MIT) visualization of the known universe, begun by Linköping University and the American Museum of Natural History, for "interactive presentation" and "shared experiences among audiences": a presenter flies a room through space on a flat screen, a projector wall or a planetarium dome (release 0.22.0, June 2026). It is built on SGCT, so it renders in stereo for 3D displays, and its headset support follows SGCT's.
 - [Zero Latency](https://en.wikipedia.org/wiki/Zero_Latency_%28company%29) - Free-roam VR arenas, founded in Melbourne in 2013.
 - [Sandbox VR](https://en.wikipedia.org/wiki/Sandbox_VR) - Location-based VR with full-body motion capture, founded in 2016.
 
