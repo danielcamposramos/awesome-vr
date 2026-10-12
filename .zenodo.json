@@ -1,0 +1,24 @@
+{
+  "title": "awesome-vr: curated resources for virtual reality",
+  "description": "Curated resources for virtual reality: headsets, open runtimes, standards, media formats, comfort and accessibility, sixty years of history, and the platforms that were switched off.",
+  "creators": [
+    {
+      "name": "Ramos, Daniel Campos",
+      "orcid": "0009-0001-4546-8673"
+    }
+  ],
+  "license": "cc0-1.0",
+  "upload_type": "publication",
+  "publication_type": "other",
+  "access_right": "open",
+  "language": "eng",
+  "keywords": [
+    "virtual reality",
+    "VR",
+    "OpenXR",
+    "headsets",
+    "comfort",
+    "accessibility",
+    "history of VR"
+  ]
+}

@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this list, please cite it as below."
+type: dataset
+title: "awesome-vr: curated resources for virtual reality"
+abstract: "Curated resources for virtual reality: headsets, open runtimes, standards, media formats, comfort and accessibility, sixty years of history, and the platforms that were switched off."
+authors:
+  - family-names: "Ramos"
+    given-names: "Daniel Campos"
+    orcid: "https://orcid.org/0009-0001-4546-8673"
+license: CC0-1.0
+repository-code: "https://github.com/danielcamposramos/awesome-vr"
+keywords:
+  - "virtual reality"
+  - "VR"
+  - "OpenXR"
+  - "headsets"
+  - "comfort"
+  - "accessibility"
+  - "history of VR"
