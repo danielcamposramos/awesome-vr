@@ -1,4 +1,4 @@
-# Awesome VR [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+# Awesome VR [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23308065.svg)](https://doi.org/10.5281/zenodo.23308065)
 
 > Virtual reality: the headsets, the runtimes that drive them, the standards that keep them portable, and the sixty years of attempts behind them.
 
