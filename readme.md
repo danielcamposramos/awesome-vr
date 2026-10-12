@@ -2,9 +2,15 @@
 
 > Virtual reality: the headsets, the runtimes that drive them, the standards that keep them portable, and the sixty years of attempts behind them.
 
-Virtual reality is older than the personal computer. Morton Heilig built the Sensorama in 1962 and Ivan Sutherland hung a head-tracked display from a laboratory ceiling in 1968, and every headset since has been the same bargain: two images, two eyes, and a machine fast enough to redraw them when you move. What changed is the cull rate. Each wave of hardware brings a rush of platforms and then a wave of shutdowns, so this list names what was switched off as carefully as what ships, and prefers the open runtimes that keep a headset working after its store closes.
+**Use it to** find a headset and the open runtimes that keep it working after its store closes, the standards that keep it portable, and what came before.
+Virtual reality is older than the personal computer.
+Morton Heilig built the Sensorama in 1962 and Ivan Sutherland hung a head-tracked display from a laboratory ceiling in 1968, and every headset since has been the same bargain: two images, two eyes, and a machine fast enough to redraw them when you move.
+What changed is the cull rate.
+Each wave of hardware brings a rush of platforms and then a wave of shutdowns, so this list names what was switched off as carefully as what ships, and prefers the open runtimes that keep a headset working after its store closes.
 
-*AI was leveraged as a partner in the development of this work — [more information here](PROVENANCE.md).*
+**Start with:** [Headsets](#headsets) · [Open source runtimes and Linux VR](#open-source-runtimes-and-linux-vr) · [Comfort, health and accessibility](#comfort-health-and-accessibility) · [Platforms that were switched off](#platforms-that-were-switched-off)
+
+*AI was leveraged as a partner in the development of this work: [more information here](PROVENANCE.md).*
 
 ## Contents
 
