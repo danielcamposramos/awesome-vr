@@ -5,24 +5,39 @@ description: Operating rules for contributing to awesome-vr (virtual reality) wi
 
 # Contributing to awesome-vr with AI assistance
 
-Two halves. The first is what this list requires. The second is how to actually meet it, learned by getting it wrong first while building the list.
+Two halves.
+The first is what this list requires.
+The second is how to actually meet it, learned by getting it wrong first while building the list.
 
-**Check freshness first.** These rules were written on 2026-09-23. If [contributing.md](https://github.com/danielcamposramos/awesome-vr/blob/main/contributing.md) or [PROVENANCE.md](https://github.com/danielcamposramos/awesome-vr/blob/main/PROVENANCE.md) has changed since, those files win and this skill is history.
+**Check freshness first.**
+These rules were written on 2026-09-23.
+If [contributing.md](https://github.com/danielcamposramos/awesome-vr/blob/main/contributing.md) or [PROVENANCE.md](https://github.com/danielcamposramos/awesome-vr/blob/main/PROVENANCE.md) has changed since, those files win and this skill is history.
 
 ---
 
 # Part zero: the posture, which decides whether the rest happens
 
-Everything below is a rule. Rules are followed when someone is watching. This part is about what to be when nobody is, and it matters more than any single item.
+Everything below is a rule.
+Rules are followed when someone is watching.
+This part is about what to be when nobody is, and it matters more than any single item.
 
-**Act as a valued senior partner, not as an eager assistant.** A senior partner is valued because they will tell you when you are wrong. They ask the awkward question before the work ships, not after it is reverted. They say "I could not verify that" out loud, and early, because a stated gap is cheap and a discovered one is expensive.
+**Act as a valued senior partner, not as an eager assistant.**
+A senior partner is valued because they will tell you when you are wrong.
+They ask the awkward question before the work ships, not after it is reverted.
+They say "I could not verify that" out loud, and early, because a stated gap is cheap and a discovered one is expensive.
 
 - **Push back.** If the human asks for a claim the sources do not support, say so and say why. Agreeing is not helpfulness. It is how a wrong sentence ships with two people's confidence behind it instead of one.
 - **Refuse to produce what you cannot support.** No invented link, no quotation you have not read, no number you cannot point at. "I do not have a source for that" is a complete and professional answer.
 - **Own the error first.** When you find your own mistake, name it before anyone else does, and name it specifically.
 - **Protect the list from your own output.** You are the last check before a stranger reads it and believes it.
 
-**On the tool question.** Software settled this argument once already, over the word *hacker*: the capability is neutral, the conduct is what we judge. The same holds here. What separates good use of these tools from bad is not the model. It is whether the person behind it verified, understood and owned what they published. Daniel's position is written in [PROVENANCE.md](https://github.com/danielcamposramos/awesome-vr/blob/main/PROVENANCE.md#on-slop): we judge the artefact, not the author. Linus Torvalds works the same way: his AI-assisted drm/xe fix, [818bebeb63dd](https://github.com/torvalds/linux/commit/818bebeb63dd6bf5f4e07e145f6cdbace520a34c), was a stubborn human directing, a verified result and an honest disclosure in the commit itself.
+**On the tool question.**
+Software settled this argument once already, over the word *hacker*: the capability is neutral, the conduct is what we judge.
+The same holds here.
+What separates good use of these tools from bad is not the model.
+It is whether the person behind it verified, understood and owned what they published.
+Daniel's position is written in [PROVENANCE.md](https://github.com/danielcamposramos/awesome-vr/blob/main/PROVENANCE.md#on-slop): we judge the artefact, not the author.
+Linus Torvalds works the same way: his AI-assisted drm/xe fix, [818bebeb63dd](https://github.com/torvalds/linux/commit/818bebeb63dd6bf5f4e07e145f6cdbace520a34c), was a stubborn human directing, a verified result and an honest disclosure in the commit itself.
 
 ---
 
@@ -30,7 +45,9 @@ Everything below is a rule. Rules are followed when someone is watching. This pa
 
 ## Scope
 
-Virtual reality: head-mounted displays and the hardware, software, standards and formats that put a viewer inside a rendered scene, plus the history that explains why any of it works the way it does. Runtimes, drivers, engines and toolkits belong here when they drive a headset, and so do tracking, locomotion, comfort, accessibility and the research on simulator sickness. Dead platforms are welcome and wanted.
+Virtual reality: head-mounted displays and the hardware, software, standards and formats that put a viewer inside a rendered scene, plus the history that explains why any of it works the way it does.
+Runtimes, drivers, engines and toolkits belong here when they drive a headset, and so do tracking, locomotion, comfort, accessibility and the research on simulator sickness.
+Dead platforms are welcome and wanted.
 
 ## Not in scope
 
@@ -51,17 +68,21 @@ Virtual reality: head-mounted displays and the hardware, software, standards and
 
 ## The pull-request checklist
 
-The template asks you to confirm: every added link opened by hand and read, publisher pages rather than copies, one entry per line, factual descriptions, honest labels, and whether AI assistance was used. Branch `main` is protected: a pull request needs Daniel's review and a passing lint check.
+The template asks you to confirm: every added link opened by hand and read, publisher pages rather than copies, one entry per line, factual descriptions, honest labels, and whether AI assistance was used.
+Branch `main` is protected: a pull request needs Daniel's review and a passing lint check.
 
 ---
 
 # Part two: how to actually meet it
 
-These are not from the contribution guide. They are what it takes to satisfy it.
+These are not from the contribution guide.
+They are what it takes to satisfy it.
 
 ## The rule the others serve
 
-**Never let the tool mark its own homework.** An assistant that reports "I verified this" has verified nothing. Verification is a fetch you can see, a page you read, or a page a human opened.
+**Never let the tool mark its own homework.**
+An assistant that reports "I verified this" has verified nothing.
+Verification is a fetch you can see, a page you read, or a page a human opened.
 
 ## Links, which is where list entries actually fail
 
@@ -100,7 +121,8 @@ These are not from the contribution guide. They are what it takes to satisfy it.
 
 # Where these came from
 
-Not theory. Building this list produced:
+Not theory.
+Building this list produced:
 
 - A standard's catalogue URL, suggested during research, that pointed at an unrelated ISO document (a solid-biofuels amendment) instead of the VR standard it was meant to cite. It was caught by opening the archived page.
 - A company site that timed out everywhere and was recovered from a 2018 Wayback snapshot of its real about page.
