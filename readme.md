@@ -38,7 +38,7 @@ Each wave of hardware brings a rush of platforms and then a wave of shutdowns, s
 
 - [Sensorama](https://en.wikipedia.org/wiki/Sensorama) - Morton Heilig's 1962 machine, one of the earliest known examples of immersive multi-sensory technology: a stereoscopic display with stereo sound, fans, odour emitters and a motion chair, aimed at a single seated viewer.
 - [Morton Heilig](https://en.wikipedia.org/wiki/Morton_Heilig) - The cinematographer who wanted to build the "cinema of the future", and who patented the Telesphere Mask, a head-mounted stereoscopic viewer with sound, in 1960, years before anyone had a computer to drive one.
-- [The Sword of Damocles](https://en.wikipedia.org/wiki/The_Sword_of_Damocles_(virtual_reality)) - The 1968 head-mounted display built by Ivan Sutherland with Bob Sproull, Quintin Foster and Danny Cohen, and the first to redraw its image from the viewer's tracked head pose. It hung from the ceiling because it was too heavy to wear, and Sutherland described the leap plainly: "we didn't need a camera – we could substitute a computer".
+- [The Sword of Damocles](https://en.wikipedia.org/wiki/The_Sword_of_Damocles_(virtual_reality)) - The 1968 head-mounted display built by Ivan Sutherland with Bob Sproull, Quintin Foster and Danny Cohen, and the first to redraw its image from the viewer's tracked head pose. It hung from the ceiling because it was too heavy to wear, and Sutherland described the leap plainly: "we didn't need a camera: we could substitute a computer".
 - [Ivan Sutherland](https://en.wikipedia.org/wiki/Ivan_Sutherland) - The computer-graphics pioneer behind that display, and behind much of the vocabulary the field still uses.
 - [Thomas A. Furness III](https://en.wikipedia.org/wiki/Thomas_A._Furness_III) - Built helmet-mounted displays for the US Air Force from 1966, led the Super Cockpit programme, and founded the University of Washington's Human Interface Technology Lab in 1989.
 - [Videoplace](https://en.wikipedia.org/wiki/Videoplace) - Myron Krueger's mid-1970s "artificial reality" at the University of Connecticut, which put a participant's own video image inside a responsive graphic world without goggles or gloves.
@@ -169,7 +169,10 @@ The editions, registries and reference implementations are indexed in [standards
 
 ## VR on 3D displays: the stereo spectator
 
-Every VR game already renders two eyes. The 3D televisions, projectors and monitors people still own want exactly that: two eye images, packed side by side or top and bottom, watched with the display's own glasses. What stands in between is everything a VR mode does *for a headset*: head tracking, lens distortion, a HUD floating as a panel in space, a cursor inside a virtual screen. The stereo spectator, designed by Daniel Campos Ramos in 2026, removes those and keeps the two eyes: someone plays in the headset while the room watches in depth on the television (spectator), or there is no headset at all and the display is the only screen (player).
+Every VR game already renders two eyes.
+The 3D televisions, projectors and monitors people still own want exactly that: two eye images, packed side by side or top and bottom, watched with the display's own glasses.
+What stands in between is everything a VR mode does *for a headset*: head tracking, lens distortion, a HUD floating as a panel in space, a cursor inside a virtual screen.
+The stereo spectator, designed by Daniel Campos Ramos in 2026, removes those and keeps the two eyes: someone plays in the headset while the room watches in depth on the television (spectator), or there is no headset at all and the display is the only screen (player).
 
 - [VR Stereo Spectator](https://github.com/danielcamposramos/sony-bravia-linux/tree/main/tools/vr-stereo-spectator) - The first working case, September 2026: a replacement `sourcevr.so` that implements Half-Life 2's own VR interface for a 3D television instead of a headset, on Linux with Vulkan and an NVIDIA card, played on two Sony 3D sets. Off-axis eyes sharing one window at the screen plane, the game's view in place of head tracking, the HUD and crosshair as a 2D layer at zero parallax, menus in the game's own layout, the pointer confined to what the eyes show. A full playthrough section ran clean across saves and level transitions. Source 1 SDK License, with a provenance file.
 - [The formula](https://github.com/danielcamposramos/sony-bravia-linux/blob/main/tools/vr-stereo-spectator/FORMULA.md) - What any VR engine has to change to drive a 3D display instead of a headset, learned on Half-Life 2 and written game-neutral: eyes, view, composition, the 2D layer, crosshair, weapon effects, input, settings. Shadows, lighting, level transitions and saves needed nothing, because the engine renders each eye itself; that is the advantage over a stereo proxy for games without a VR mode, which is what [wiz3D](https://github.com/effcol/wiz3D) does.
@@ -222,7 +225,8 @@ Every VR game already renders two eyes. The 3D televisions, projectors and monit
 
 ## Enterprise and industrial VR
 
-Where most of the continuous use has always been. These are mostly the organisations' own accounts; independent outcome studies are rarer.
+Where most of the continuous use has always been.
+These are mostly the organisations' own accounts; independent outcome studies are rarer.
 
 ### Training and simulation
 
@@ -259,7 +263,11 @@ Where most of the continuous use has always been. These are mostly the organisat
 
 ### Digital twins
 
-A digital twin is a model kept as the counterpart of a real product, place or process, for simulation, testing, monitoring and maintenance. VR lets people stand inside one at full scale, from anywhere, and before the real thing exists: a factory line, a city block, a coast, the sea floor. The value lasts only as long as the model's formats are open, so the standards that let one twin reach a browser, a headset and a phone matter more than any single viewer. The stereo side, including terrain measured from stereo pairs, is in [awesome-stereoscopy](https://github.com/danielcamposramos/awesome-stereoscopy#stereo-at-work-science-access-practice-and-government), and its on-site side is in [awesome-ar](https://github.com/danielcamposramos/awesome-ar#digital-twins). The section was prompted by a digital-twin discussion that Milton Ponson, co-chair of the W3C Procedural Memory Knowledge Representation Community Group, shared with Daniel.
+A digital twin is a model kept as the counterpart of a real product, place or process, for simulation, testing, monitoring and maintenance.
+VR lets people stand inside one at full scale, from anywhere, and before the real thing exists: a factory line, a city block, a coast, the sea floor.
+The value lasts only as long as the model's formats are open, so the standards that let one twin reach a browser, a headset and a phone matter more than any single viewer.
+The stereo side, including terrain measured from stereo pairs, is in [awesome-stereoscopy](https://github.com/danielcamposramos/awesome-stereoscopy#stereo-at-work-science-access-practice-and-government), and its on-site side is in [awesome-ar](https://github.com/danielcamposramos/awesome-ar#digital-twins).
+The section was prompted by a digital-twin discussion that Milton Ponson, co-chair of the W3C Procedural Memory Knowledge Representation Community Group, shared with Daniel.
 
 - [Digital twin](https://en.wikipedia.org/wiki/Digital_twin) - The concept and its history: a computational model serving as the counterpart of a real product, system or process. The first practical definition came from NASA in 2010, to improve the simulation of spacecraft.
 - [OGC 3D Tiles](https://www.ogc.org/standards/3dtiles/) - The Open Geospatial Consortium's community standard for streaming and rendering massive 3D geospatial content: photogrammetry, buildings, BIM and CAD, point clouds. It defines a hierarchy of tiles built for streaming, so a city or a planet reaches a headset a piece at a time.
@@ -271,7 +279,8 @@ A digital twin is a model kept as the counterpart of a real product, place or pr
 
 ## Platforms that were switched off
 
-Hardware outlives its platform. These are the closures, with dates, because a headset whose store is gone is the normal end state in this field rather than an exception.
+Hardware outlives its platform.
+These are the closures, with dates, because a headset whose store is gone is the normal end state in this field rather than an exception.
 
 - [Google Daydream](https://en.wikipedia.org/wiki/Google_Daydream) - Phone-based VR, 2016 to 2019, closed with an unusually frank admission: "there hasn't been the broad consumer or developer adoption we had hoped".
 - [Samsung Gear VR](https://en.wikipedia.org/wiki/Samsung_Gear_VR) - Built with Oculus and launched in 2015, discontinued on 30 September 2020, and the reason a great many phones briefly came with a headset in the box.
@@ -279,7 +288,7 @@ Hardware outlives its platform. These are the closures, with dates, because a he
 - [Windows Mixed Reality](https://en.wikipedia.org/wiki/Windows_Mixed_Reality) - Microsoft's platform and headset family, deprecated in December 2023 and removed from Windows 11 during 2024, leaving working hardware without an operating system that speaks to it.
 - [PlayStation VR](https://en.wikipedia.org/wiki/PlayStation_VR) - The original 2016 headset, over five million sold, supported until 2024 and succeeded by PlayStation VR2.
 - [The Void](https://en.wikipedia.org/wiki/The_Void_%28virtual_reality%29) - Free-roam "hyper-reality" venues built on Disney and Lucasfilm licences, 2014 to 2020, closed when the pandemic halted location-based entertainment.
-- [Rec Room](https://en.wikipedia.org/wiki/Rec_Room_(video_game)) - The clearest case of all: launched on 1 June 2016, shut down on 1 June 2026, exactly ten years later, after more than 150 million players. The stated reason was not user numbers but economics — "our costs always ended up overwhelming the revenue we brought in".
+- [Rec Room](https://en.wikipedia.org/wiki/Rec_Room_(video_game)) - The clearest case of all: launched on 1 June 2016, shut down on 1 June 2026, exactly ten years later, after more than 150 million players. The stated reason was not user numbers but economics: "our costs always ended up overwhelming the revenue we brought in".
 
 ## Preservation
 
@@ -308,7 +317,8 @@ What keeps a headset useful after its maker stops.
 
 ## In fiction
 
-Science fiction named this field's ideas before engineers built them, and it guessed wrong as often as right. Each entry says which.
+Science fiction named this field's ideas before engineers built them, and it guessed wrong as often as right.
+Each entry says which.
 
 - [Pygmalion's Spectacles](https://www.gutenberg.org/ebooks/22893) - Stanley G. Weinbaum's 1935 story of spectacles that put the wearer inside a film, promising "taste, smell, even touch". Right about the goal of standing inside a story; the senses beyond sight and sound are still the hard part (see awesome-stereoscopy's [Beyond the eyes](https://github.com/danielcamposramos/awesome-stereoscopy#beyond-the-eyes)).
 - [The Veldt](https://en.wikipedia.org/wiki/The_Veldt_%28short_story%29) - Ray Bradbury's 1950 "nursery", a room that reproduces any place its children imagine. The room-scale part came true in the CAVE (1992, above); the part where the lions become real did not.
@@ -341,18 +351,25 @@ Science fiction named this field's ideas before engineers built them, and it gue
 
 ## Known gaps
 
-Stated openly, because a list that hides its blind spots is worse than one that names them. These are the places this list is weakest, and the contributions most wanted:
+Stated openly, because a list that hides its blind spots is worse than one that names them.
+These are the places this list is weakest, and the contributions most wanted:
 
-**Non-Western ecosystems** now have their own history and headset sections, built from English-language sources. Coverage in the markets' own languages is still missing, as are YVR and Samsung's Galaxy XR, whose own pages could not be verified. Contributions in any language are wanted; cite what you can.
+**Non-Western ecosystems** now have their own history and headset sections, built from English-language sources.
+Coverage in the markets' own languages is still missing, as are YVR and Samsung's Galaxy XR, whose own pages could not be verified.
+Contributions in any language are wanted; cite what you can.
 
-**Enterprise and industrial VR** has a section now, digital twins included, but it rests mostly on the organisations' own accounts and on the twin programmes' descriptions of themselves. Independent outcome studies are wanted, above all measured results from twins used in a headset, beyond the one tourism study listed.
+**Enterprise and industrial VR** has a section now, digital twins included, but it rests mostly on the organisations' own accounts and on the twin programmes' descriptions of themselves.
+Independent outcome studies are wanted, above all measured results from twins used in a headset, beyond the one tourism study listed.
 
-**Communities** are represented by their news outlets, a podcast and the main conferences. The active forums sit mostly on platforms whose pages could not be verified in the ordinary way, and an unverified link is worse than an admitted gap.
+**Communities** are represented by their news outlets, a podcast and the main conferences.
+The active forums sit mostly on platforms whose pages could not be verified in the ordinary way, and an unverified link is worse than an admitted gap.
 
 **Research literature** is still thin: the comfort entries point at one systematic review and at overviews rather than at the primary papers.
 
-**Preserving content** lags behind preserving hardware. The drivers and unlocks in the Preservation section keep headsets working; the games and worlds of closed stores have no equivalent yet.
+**Preserving content** lags behind preserving hardware.
+The drivers and unlocks in the Preservation section keep headsets working; the games and worlds of closed stores have no equivalent yet.
 
 ## Contributing
 
-Contributions are welcome. Read the [contribution guidelines](contributing.md) first.
+Contributions are welcome.
+Read the [contribution guidelines](contributing.md) first.

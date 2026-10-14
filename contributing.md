@@ -4,15 +4,18 @@ Please open a pull request that adds one thing, or fixes one thing, and says why
 
 ## What belongs here
 
-Virtual reality: head-mounted displays and the hardware, software, standards and formats that put a viewer inside a rendered scene, plus the history that explains why any of it works the way it does. Runtimes, drivers, engines and toolkits belong here when they drive a headset. So do the things that decide whether VR is usable at all: tracking, locomotion, comfort, accessibility, and the research on simulator sickness.
+Virtual reality: head-mounted displays and the hardware, software, standards and formats that put a viewer inside a rendered scene, plus the history that explains why any of it works the way it does.
+Runtimes, drivers, engines and toolkits belong here when they drive a headset.
+So do the things that decide whether VR is usable at all: tracking, locomotion, comfort, accessibility, and the research on simulator sickness.
 
-Dead platforms are welcome and wanted. A headset whose store was switched off is part of this subject, not an omission from it, and saying what happened to it is more useful than pretending it never shipped.
+Dead platforms are welcome and wanted.
+A headset whose store was switched off is part of this subject, not an omission from it, and saying what happened to it is more useful than pretending it never shipped.
 
 ## What does not
 
 - **Web-first VR.** [awesome-webxr](https://github.com/msub2/awesome-webxr) covers WebXR and its tooling properly. Link to it rather than duplicating it.
 - **Augmented reality** as a subject of its own. It has [its own list](https://github.com/danielcamposramos/awesome-ar). A passthrough headset that does both belongs in whichever list its entry is actually about.
-- **Stereoscopy as a medium** — formats, packings, signalling, stereo photography and 3D cinema — which is [awesome-stereoscopy](https://github.com/danielcamposramos/awesome-stereoscopy). A headset is a stereoscope you wear, so the two lists meet at the optics and then part.
+- **Stereoscopy as a medium** — formats, packings, signalling, stereo photography and 3D cinema, which is [awesome-stereoscopy](https://github.com/danielcamposramos/awesome-stereoscopy). A headset is a stereoscope you wear, so the two lists meet at the optics and then part.
 - Generic 3D graphics, game engines and platform business news.
 - Dead links, abandoned projects with no historical value, and anything whose page no longer loads.
 
@@ -27,4 +30,6 @@ Dead platforms are welcome and wanted. A headset whose store was switched off is
 
 ## Using an AI assistant
 
-Load [ai-skill/SKILL.md](ai-skill/SKILL.md) first. It carries these rules plus the verification discipline behind every entry, and it works with any assistant. Assistance is welcome and never held against you; see [PROVENANCE.md](PROVENANCE.md#on-slop).
+Load [ai-skill/SKILL.md](ai-skill/SKILL.md) first.
+It carries these rules plus the verification discipline behind every entry, and it works with any assistant.
+Assistance is welcome and never held against you; see [PROVENANCE.md](PROVENANCE.md#on-slop).
