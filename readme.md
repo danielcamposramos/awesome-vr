@@ -208,7 +208,7 @@ The stereo spectator, designed by Daniel Campos Ramos in 2026, removes those and
 - [VRChat](https://en.wikipedia.org/wiki/VRChat) - The 2014 platform where users meet as their own 3D avatars in worlds other users built, and still the centre of gravity for social VR.
 - [Resonite](https://en.wikipedia.org/wiki/Resonite) - Released in October 2023 as the successor to NeosVR, after its creator left that project in a dispute over cryptocurrency features. Its design principle is that virtually all content can be remixed and edited in real time, inside the session.
 - [Second Life](https://en.wikipedia.org/wiki/Second_Life) - Linden Lab's 2003 desktop virtual world, the social-avatar ancestor of the platforms above.
-- [Bigscreen](https://bigscreenvr.com/about/) - The social desktop-and-cinema app launched in 2016, separate from the company's headset.
+- [Bigscreen](https://bigscreenvr.com/about/) - The social desktop-and-cinema app launched in 2016, separate from the company's headset. It also rents studio films in VR cinemas, 3D editions included, through deals that began with [Paramount Pictures in 2019](https://www.roadtovr.com/bigscreen-teams-with-paramount-pictures).
 - [Horizon Worlds](https://en.wikipedia.org/wiki/Horizon_Worlds) - Meta's social VR platform from December 2021, now being steered toward phones.
 - [ChilloutVR](https://docs.chilloutvr.net/chilloutvr/) - A user-content-driven sandbox playable in VR and on the desktop. It has no Wikipedia article, so its own documentation is the primary source here.
 
