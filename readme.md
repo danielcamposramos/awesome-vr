@@ -121,6 +121,9 @@ Each wave of hardware brings a rush of platforms and then a wave of shutdowns, s
 ## Open standards and formats
 
 The editions, registries and reference implementations are indexed in [standards.md](standards.md).
+The [IANA Matroska registry](https://www.iana.org/assignments/matroska) assigned StereoMode 15 through 20 for packed picture-and-depth layouts on 26 October 2026, after Track Plane Types 3 through 5 for separate depth tracks on 20 October.
+These are container identifiers, distinct from OpenXR views or headset transport; allocation alone does not establish player support.
+Disclosure: Daniel, who maintains this list, is the registrations' change controller.
 
 - [OpenXR](https://en.wikipedia.org/wiki/OpenXR) - The Khronos standard, released as 1.0 in July 2019, that replaced one vendor API per headset. Everything in the next section depends on it.
 - [OpenVR](https://en.wikipedia.org/wiki/OpenVR) - Valve's SDK and API, public since April 2015 and the default runtime interface for SteamVR, which is why so many existing games speak it rather than OpenXR.

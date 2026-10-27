@@ -42,6 +42,13 @@ The Hand Input module writes privacy into its normative text: articulated hand d
 
 The formats form a lineage: [VRML](https://en.wikipedia.org/wiki/VRML) (1994), then [COLLADA](https://en.wikipedia.org/wiki/COLLADA) (Sony, later Khronos) and [X3D](https://www.web3d.org/x3d/what-x3d) (ISO, from the [Web3D Consortium](https://en.wikipedia.org/wiki/Web3D_Consortium)) in parallel, then glTF as the runtime delivery format most engines now target.
 
+## Matroska picture and depth identifiers
+
+The [IANA Matroska registry](https://www.iana.org/assignments/matroska) assigned StereoMode 15 through 20 for packed picture-and-depth layouts on 26 October 2026.
+Track Plane Types 3 through 5, assigned on 20 October, describe separate left-eye, right-eye and background depth tracks.
+Both registrations name Daniel Ramos as change controller and cite [stereo-layer v1.9.0](https://github.com/Sparky-OS/stereo-layer/blob/v1.9.0/docs/depth-marks.md).
+These are container identifiers; they do not change OpenXR's view model or establish decoder and headset support.
+
 ## Immersive media
 
 - [MPEG-I](https://www.mpeg.org/standards/MPEG-I/) - ISO/IEC 23090: OMAF for omnidirectional media ([ISO catalogue](https://www.iso.org/standard/73310.html)), immersive audio, and point-cloud and volumetric video.
