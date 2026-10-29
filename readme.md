@@ -112,6 +112,13 @@ Each wave of hardware brings a rush of platforms and then a wave of shutdowns, s
 - [Shiftall MeganeX](https://en.shiftall.net/our-products) - Ultra-light OLED PC headsets from a Panasonic spin-off, which Shiftall now runs alone.
 - [Canon MREAL](https://global.canon/en/technology/canon-tech/tech/mr/) - Canon's mixed-reality headsets for industry and design.
 
+### DIY headsets
+
+- [Relativty](https://github.com/relativty/Relativty) - Open hardware, firmware and a SteamVR driver for a headset built from separate displays, lenses and an Arduino IMU tracker. The basic design provides rotational tracking without built-in controller support; its current recommended build guide is dated May 2023.
+- [CNCDan DIY VR](https://github.com/dmcke5/DIY_VR) - Printable headset with adjustable eye spacing, assembly models and firmware. V1 uses Relativty; V2 uses HadesVR and documents wireless controllers and optional positional tracking through PSMoveServiceEX.
+- [OpenVR Arduino HMD](https://github.com/r57zone/OpenVR-ArduinoHMD) - Windows-oriented SteamVR driver for an HDMI headset display and an Arduino rotation tracker, with documented calibration, lens correction and display configuration.
+- [DIY VR: How to build your own headset, and why you probably won't want to](https://arstechnica.com/gadgets/2026/10/diy-vr-how-to-build-your-own-headset-and-why-you-probably-wont-want-to/) - Tim Stevens, Ars Technica, 19 October 2026: a firsthand Relativty/CNCDan build, including component failures, tracking drift, fit and the limits he encountered in sim racing; [archived capture](https://web.archive.org/web/20261019211337/https://arstechnica.com/gadgets/2026/10/diy-vr-how-to-build-your-own-headset-and-why-you-probably-wont-want-to/).
+
 ## Tracking and rendering
 
 - [Positional tracking](https://en.wikipedia.org/wiki/Positional_tracking) - How a headset knows where it is. Outside-in tracking watches the headset from fixed sensors in the room; inside-out puts the cameras on the headset and has it look outward, which is why current hardware ships without base stations.
